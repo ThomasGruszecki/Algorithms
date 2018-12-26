@@ -1,17 +1,19 @@
 # Algorithms
-Personal playground for playing with various algorithms.\
-This is all done by a student in High School. If you see any glaring issues, feel free to mention it.\
 
-# Finished\
+Personal playground for playing with various algorithms.\
+This is all done by a student in High School. If you see any glaring issues, feel free to mention it.
+
+# Finished
+
 BubbleSort\
 QuickSort*\
 HeapSort\
 InsertionSort\
 TreeSort\
 RadixSort\
-BogoSort\
+BogoSort
 
-# To Do\
+# To Do
 
 EXCHANGE SORTS\
 CocktailShakerSort\
@@ -19,7 +21,7 @@ CombSort\
 OddEvenSort\
 GnomeSort\
 SlowSort\
-StoogeSort\
+StoogeSort
 
 SELECTION SORTS\
 SelectionSort\
@@ -28,19 +30,19 @@ SmoothSort\
 CartesianTreeSort\
 TournamentSort\
 CycleSort\
-WeakHeapSort\
+WeakHeapSort
 
 INSERTION SORTS\
 ShellSort\
 SplaySort\
 LibrarySort\
-PatienceSorting\
+PatienceSorting
 
 MERGE SORTS\
 MergeSort\
 CascadeMergeSort\
 OscillatingMergeSort\
-PolyphaseMergeSort\
+PolyphaseMergeSort
 
 DISTRIBUTION SORTS\
 AmericanFlagSort\
@@ -50,19 +52,19 @@ BurstSort\
 CountingSort\
 PigeonholeSort\
 ProxmapSort\
-FlashSort\
+FlashSort
 
 CONCURRENT SORTS(Possible)\
 BitonicSorter\
 BatcherOddEvenMergeSort\
-PairwiseSortingNetwork\
+PairwiseSortingNetwork
 
 HYBRID SORTS\
 BlockMergeSort\
 TimSort\
 IntroSort\
 SpreadSort\
-MergeInsertionSort\
+MergeInsertionSort
 
 
 
