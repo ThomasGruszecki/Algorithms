@@ -6,7 +6,7 @@ This is all done by a student in High School. If you see any glaring issues, fee
 # Finished
 
 BubbleSort\
-QuickSort*\
+QuickSort\
 HeapSort\
 InsertionSort\
 TreeSort\
