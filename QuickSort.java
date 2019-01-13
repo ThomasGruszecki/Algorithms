@@ -1,31 +1,36 @@
 public class QuickSort
 {
-    public static void quickSort(int[] array, int start, int end)
+    public static void sort(int array[])
     {
-        if(end<=start)
-        {
+        sort(array, 0, array.length - 1);
+    }
+    
+    public static void sort(int array[], int start, int end)
+    {
+        if(start >= end)
             return;
-        }
+        int pivot = (int)(Math.random() * (end - start)) + start,
+            pivotNumber = array[pivot],
+            index = start + 1;
+        array[pivot] = array[start];
+        array[start] = pivotNumber;
         
-        int pivot = array[start]; 
-        int i = start+1; int tmp; 
-    
-        for(int j = start+1; j<= end; j++)
+        
+        for(int i = start + 1; i <= end; i++)
         {
-            if(pivot > array[j])
+            if(array[i] < pivotNumber)
             {
-                tmp = array[j]; 
-                array[j] = array[i]; 
-                array[i] = tmp; 
-    
-                i++; 
+                int temp = array[index];
+                array[index] = array[i];
+                array[i] = temp;
+                
+                index++;
             }
         }
-    
-        array[start] = array[i-1]; 
-        array[i-1] = pivot; 
-   
-        quickSort(array, start, i-2); 
-        quickSort(array, i, end); 
+        array[start] = array[index - 1];
+        array[index - 1] = pivotNumber;
+        
+        sort(array, start, index-2);
+        sort(array, index, end);
     }
 }
