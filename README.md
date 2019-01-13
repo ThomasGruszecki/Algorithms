@@ -11,7 +11,8 @@ HeapSort\
 InsertionSort\
 TreeSort\
 RadixSort\
-BogoSort
+BogoSort\
+MergeSort
 
 # To Do
 
@@ -39,7 +40,6 @@ LibrarySort\
 PatienceSorting
 
 MERGE SORTS\
-MergeSort\
 CascadeMergeSort\
 OscillatingMergeSort\
 PolyphaseMergeSort
